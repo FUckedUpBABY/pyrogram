@@ -4,11 +4,11 @@ import aiohttp
 from telethon import TelegramClient, events
 
 # Define your API ID, hash, and phone number
-api_id = ''
-api_hash = ''
+api_id = '8345771'
+api_hash = '588cf0bc11c58afc144b079593cb04d5'
 
 # Define your group chat where you want to send the messages (use the correct ID found from the previous script)
-destination_chat = 'tiger_cc41'
+destination_chat = 'Good_Charge_Scrapper'
 
 BIN_API_URL = 'https://bins.antipublic.cc/bins/{bin}'
 
@@ -38,7 +38,7 @@ def format_message(card_info, data):
         f"⚜️𝐈𝐬𝐬𝐮𝐞𝐫 ➔ <b>{data.get('bank', '')}</b>\n"
         f"⚜️𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ➔ <b>{data.get('country_name', '')}, {data.get('country_flag', '')}</b>\n"
         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>\n"
-        "⚜️𝗖𝗿𝐞𝗮𝐭𝗼𝐫 ➔ <b>@FKdzzz41</b>"
+        "⚜️𝗖𝗿𝐞𝗮𝐭𝗼𝐫 ➔ <b>Good</b>"
     )
 
 @client.on(events.NewMessage)
